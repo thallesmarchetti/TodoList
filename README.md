@@ -7,7 +7,7 @@ Aplicativo voltado para registro de atividades do dia a dia. Sempre temos divers
 
 Ter os registros das tarefas do dia a dia ajudam na organização.
 
-![](header.png)
+<img src="TodoList/SplashScreen.png" width="200px" height="200px" />
 
 ## Funcionalidades
 
