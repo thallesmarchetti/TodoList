@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		61483158248AFE2400E8E7B4 /* todo-list.png in Resources */ = {isa = PBXBuildFile; fileRef = 61483157248AFE2400E8E7B4 /* todo-list.png */; };
 		6173D40B233327B7002CEFD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6173D40A233327B7002CEFD6 /* AppDelegate.swift */; };
 		6173D410233327B7002CEFD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6173D40E233327B7002CEFD6 /* Main.storyboard */; };
 		6173D412233327B8002CEFD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6173D411233327B8002CEFD6 /* Assets.xcassets */; };
@@ -16,12 +15,12 @@
 		6173D41F23332B26002CEFD6 /* TodoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6173D41E23332B26002CEFD6 /* TodoListTableViewController.swift */; };
 		6173D42123332CD4002CEFD6 /* TaskType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6173D42023332CD4002CEFD6 /* TaskType.swift */; };
 		6173D42323332CE3002CEFD6 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6173D42223332CE3002CEFD6 /* Task.swift */; };
+		61B9F726268D47A5000E9031 /* TodoList.png in Resources */ = {isa = PBXBuildFile; fileRef = 61B9F725268D47A5000E9031 /* TodoList.png */; };
 		61C67DDB233472FF00C354C0 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C67DDA233472FF00C354C0 /* TaskTableViewCell.swift */; };
 		61C67DE32336A96A00C354C0 /* TaskCreatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C67DE22336A96A00C354C0 /* TaskCreatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		61483157248AFE2400E8E7B4 /* todo-list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "todo-list.png"; path = "../../../../../Downloads/todo-list.png"; sourceTree = "<group>"; };
 		6173D407233327B7002CEFD6 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6173D40A233327B7002CEFD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6173D40F233327B7002CEFD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -32,6 +31,7 @@
 		6173D41E23332B26002CEFD6 /* TodoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListTableViewController.swift; sourceTree = "<group>"; };
 		6173D42023332CD4002CEFD6 /* TaskType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskType.swift; sourceTree = "<group>"; };
 		6173D42223332CE3002CEFD6 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		61B9F725268D47A5000E9031 /* TodoList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TodoList.png; sourceTree = "<group>"; };
 		61C67DDA233472FF00C354C0 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
 		61C67DE22336A96A00C354C0 /* TaskCreatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCreatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,7 +66,7 @@
 		6173D409233327B7002CEFD6 /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
-				61483157248AFE2400E8E7B4 /* todo-list.png */,
+				61B9F725268D47A5000E9031 /* TodoList.png */,
 				6173D416233327B8002CEFD6 /* Info.plist */,
 				6173D40A233327B7002CEFD6 /* AppDelegate.swift */,
 				6173D411233327B8002CEFD6 /* Assets.xcassets */,
@@ -173,9 +173,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6173D415233327B8002CEFD6 /* LaunchScreen.storyboard in Resources */,
+				61B9F726268D47A5000E9031 /* TodoList.png in Resources */,
 				6173D412233327B8002CEFD6 /* Assets.xcassets in Resources */,
 				6173D410233327B7002CEFD6 /* Main.storyboard in Resources */,
-				61483158248AFE2400E8E7B4 /* todo-list.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
